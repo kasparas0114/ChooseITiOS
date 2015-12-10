@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80FA5ACB1C19C222000532D0 /* RestaurantList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FA5ACA1C19C222000532D0 /* RestaurantList.swift */; };
+		80FA5ACD1C19CFFB000532D0 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FA5ACC1C19CFFB000532D0 /* RestaurantViewController.swift */; };
 		E1F069591C19BD5A001E1DD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F069581C19BD5A001E1DD4 /* AppDelegate.swift */; };
 		E1F0695B1C19BD5A001E1DD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F0695A1C19BD5A001E1DD4 /* ViewController.swift */; };
 		E1F0695E1C19BD5A001E1DD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F0695C1C19BD5A001E1DD4 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		80FA5ACA1C19C222000532D0 /* RestaurantList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantList.swift; sourceTree = "<group>"; };
+		80FA5ACC1C19CFFB000532D0 /* RestaurantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestaurantViewController.swift; path = ../RestaurantViewController.swift; sourceTree = "<group>"; };
 		E1F069551C19BD5A001E1DD4 /* ChooseIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChooseIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F069581C19BD5A001E1DD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1F0695A1C19BD5A001E1DD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,12 +58,14 @@
 		E1F069571C19BD5A001E1DD4 /* ChooseIT */ = {
 			isa = PBXGroup;
 			children = (
+				80FA5ACC1C19CFFB000532D0 /* RestaurantViewController.swift */,
 				E1F069581C19BD5A001E1DD4 /* AppDelegate.swift */,
 				E1F0695A1C19BD5A001E1DD4 /* ViewController.swift */,
 				E1F0695C1C19BD5A001E1DD4 /* Main.storyboard */,
 				E1F0695F1C19BD5A001E1DD4 /* Assets.xcassets */,
 				E1F069611C19BD5A001E1DD4 /* LaunchScreen.storyboard */,
 				E1F069641C19BD5A001E1DD4 /* Info.plist */,
+				80FA5ACA1C19C222000532D0 /* RestaurantList.swift */,
 			);
 			path = ChooseIT;
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80FA5ACB1C19C222000532D0 /* RestaurantList.swift in Sources */,
+				80FA5ACD1C19CFFB000532D0 /* RestaurantViewController.swift in Sources */,
 				E1F0695B1C19BD5A001E1DD4 /* ViewController.swift in Sources */,
 				E1F069591C19BD5A001E1DD4 /* AppDelegate.swift in Sources */,
 			);
@@ -251,6 +259,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MIF.ChooseIT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -262,6 +271,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MIF.ChooseIT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -284,6 +294,7 @@
 				E1F069691C19BD5A001E1DD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
